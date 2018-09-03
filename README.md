@@ -14,5 +14,5 @@ cordova结合vue的初始化项目！一个vue打包成原生app的模板，项�
 * 安卓打包
     > cordova build
 ## 项目目录
-<img src="https://wuyi12.gitee.io/wuyi123321.github.io/proImg/gitimg/cordiva-vueinit-dist.jpg" width = 50%  />
+<img src="https://wuyi12.gitee.io/wuyi123321.github.io/proImg/gitimg/cordiva-vueinit-dist.jpg" />
 
