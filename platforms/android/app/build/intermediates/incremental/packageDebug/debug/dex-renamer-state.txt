@@ -1,0 +1,4 @@
+#Mon Sep 03 14:37:08 CST 2018
+base.0=E\:\\gitpro\\cordova-vueInit\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=E\:\\gitpro\\cordova-vueInit\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
