@@ -1,8 +1,8 @@
 {
-  "name": "app",
+  "name": "vue app",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "wuyi123321 <30589614+wuyi123321@users.noreply.github.com>",
+  "description": "A Vue app init project",
+  "author": "wuyi123321 <1107225119@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,20 +10,12 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "cordova-android": "7.0.0",
-    "cordova-browser": "^5.0.3",
-    "cordova-plugin-camera": "^4.0.3",
-    "cordova-plugin-geolocation": "^4.0.1",
-    "cordova-plugin-splashscreen": "^5.0.2",
-    "cordova-plugin-statusbar": "^2.4.2",
-    "cordova-plugin-whitelist": "^1.3.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
-    "echarts": "^4.1.0",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
@@ -67,18 +59,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "cordova": {
-    "platforms": [
-      "browser",
-      "android"
-    ],
-    "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-camera": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-geolocation": {},
-      "cordova-plugin-splashscreen": {}
-    }
-  }
+  ]
 }
