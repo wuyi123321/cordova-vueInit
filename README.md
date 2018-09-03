@@ -1,5 +1,6 @@
 # cordova-vueInit
-cordova结合vue的初始化项目！一个vue打包成原生app的模板，项目中已经引用rem布局、vue-router，vuex，原生statusbar组件。适合简单的移动app开发
+cordova结合vue的初始化项目！一个vue打包成原生app的模板，项目中已经引用rem布局、vue-router，vuex，原生statusbar组件。
+适合移动app开发！默认添加了地理定位，相机等插件
 ## 项目运行
 * 安装cordova
     > npm install -g cordova
