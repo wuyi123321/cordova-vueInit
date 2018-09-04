@@ -5,7 +5,7 @@ cordova结合vue的初始化项目！一个vue打包成原生app的模板，项�
 * 安装cordova
     > npm install -g cordova
 * 克隆项目
-    > git clione git@github.com:wuyi123321/cordova-vueInit.git
+    > git clone git@github.com:wuyi123321/cordova-vueInit.git
 * 安装插件
     > 到项目目录下 npm install
 * 安装平台
