@@ -10,12 +10,17 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "cordova-android": "7.0.0",
+    "cordova-plugin-statusbar": "^2.4.2",
+    "cordova-plugin-whitelist": "1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
+    "vue-ydui": "^1.2.2",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "echarts": "^4.1.0",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "babel-loader": "^7.1.1",
@@ -59,5 +64,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {}
+    }
+  }
 }
